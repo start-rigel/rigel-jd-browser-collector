@@ -1,0 +1,18 @@
+{
+  "name": "rigel-jd-browser-collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-based JD search worker for Rigel.",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.58.2"
+  }
+}
